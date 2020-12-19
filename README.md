@@ -4,7 +4,7 @@ Packs files, because why not.
 ---
 Build with:
 ```
-cl /Fe:packer src\*.cpp
+cl /Fe:packer src\*
 ```
 
 Run with:
