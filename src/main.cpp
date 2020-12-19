@@ -3,13 +3,13 @@
 #include <stdio.h>
 #include <inttypes.h>
 
-struct FileEntry {
+typedef struct FileEntry {
     uint64_t size;
     char * data;
 
     int name_length;
     char name[MAX_PATH];
-};
+} FileEntry;
 
 void do_packing(char * path) {
     FileEntry files[500];
